@@ -11,7 +11,7 @@ Fill this table only with the results of checks actually run for the submitted v
 | `npm.cmd run build` | Passed | Latest production bundle completed successfully. An earlier build caught a JSX syntax error, which was fixed. |
 | Vite development HTTP smoke check | Passed | Started Vite in-process and fetched `/`, `/src/main.jsx`, and `/src/App.jsx`; all returned HTTP 200 with expected content. |
 | Dashboard render smoke check | Passed | React server render included the CampusVault dashboard and seeded DSLR listing. |
-| Browser: open demo and submit an eligible DSLR request | Partial | Local app rendered. Student request submission displayed â€œRequest sent for staff review.â€ and the active request count updated. |
+| Browser: open demo and submit an eligible DSLR request | Partial | Local app rendered. Student request submission displayed “Request sent for staff review.” and the active request count updated. |
 | Browser: staff approval | Not verified | Corrected the requester eligibility check, self-approval guard, and staff-only decision check. Browser approval was not re-run in this session. |
 | Staff booking and handover view | Implemented; UI not verified | Staff now see campus bookings and receive checkout/return controls. Students only see requester actions. Unit tests cover the underlying lifecycle transitions. |
 | Persistence after page refresh | Not verified end-to-end | Added shape validation for saved demo state and guarded storage access. Automated normalization tests pass, but the browser refresh could not be re-run in this session. |
@@ -43,4 +43,3 @@ Fill this table only with the results of checks actually run for the submitted v
 | Modify/delete audit records | No | No | No client policy |
 
 No `lint` script is configured in `package.json`. The SQL has not been executed against Supabase in this workspace. RLS, edge behavior and concurrent transaction behavior remain unverified. Staff approval and persistence after refresh remain incomplete QA items; no passed status should be inferred from the scenario list.
-
