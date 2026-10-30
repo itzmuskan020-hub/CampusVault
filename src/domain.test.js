@@ -54,4 +54,3 @@ test('normalizes malformed saved demo state rather than crashing on refresh', ()
   assert.deepEqual(restored.trained, fallback.trained);
   assert.equal(normalizeDemoState(null, fallback), fallback);
 });
-
