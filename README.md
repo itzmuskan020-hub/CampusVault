@@ -1,6 +1,6 @@
 # CampusVault
 
-CampusVault is a responsive campus resource sharing demo for the â€œUnlock Underused Equipment and Spacesâ€ challenge. The included app is explicitly a **browser-local fictional demo**, not a connected production database. Browser localStorage keeps changes after refresh in that browser. Demo role switching is intentionally a judge convenience and is not authentication or a security boundary.
+CampusVault is a responsive campus resource sharing demo for the “Unlock Underused Equipment and Spaces” challenge. The included app is explicitly a **browser-local fictional demo**, not a connected production database. Browser localStorage keeps changes after refresh in that browser. Demo role switching is intentionally a judge convenience and is not authentication or a security boundary.
 
 ## Run on Windows
 
@@ -34,4 +34,3 @@ Six automated business-rule tests, a React dashboard render smoke check, and the
 ## Disclosure
 
 This application and its documentation were generated with AI assistance in response to a user-provided brief. Dependencies are listed in `package.json`; iconography uses Lucide React, and Vite/React are the application framework/tooling. No team member, user research, institutional relationship, real deployment or production security review is claimed. Record the actual hackathon build-window dates and contributions truthfully before submission; see `docs/TEAM_CONTRIBUTIONS.md`.
-
