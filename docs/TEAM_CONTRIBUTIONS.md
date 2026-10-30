@@ -21,4 +21,3 @@ The app and documentation were generated with AI assistance in this Codex sessio
 - [ ] Create judge accounts with least privilege in Supabase only after backend integration; privately communicate credentials using the organizer's approved process. Never commit passwords or service keys.
 - [ ] Label all example listings and identities fictional; do not imply institutional partnership, real deployment, user research or qualification verification.
 - [ ] Review licensing and all AI-generated code/components against event rules.
-
