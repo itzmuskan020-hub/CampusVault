@@ -1,4 +1,4 @@
-# CampusVault â€” Project documentation
+# CampusVault — Project documentation
 
 ## Use case and problem
 
@@ -35,4 +35,3 @@ Supabase Auth/data integration, end-user invitations, secure staff verification 
 ## AI and third-party disclosure
 
 AI assistance was used to generate the application and supporting text. Runtime dependencies: React, React DOM, Supabase JS client (integration-ready dependency), Lucide React. Build tooling: Vite and its React plugin. Google Fonts are loaded over the network for DM Sans and Manrope; browser fallback sans-serif remains available. No paid AI service is used by the application.
-
