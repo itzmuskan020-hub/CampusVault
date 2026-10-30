@@ -140,4 +140,3 @@ create policy audit_read_staff on public.audit_logs for select using(public.is_s
 -- Do not seed real identities or passwords. Create demo auth users in Supabase Dashboard,
 -- then assign roles through SQL Editor as project owner (never via public signup metadata):
 -- insert into public.profiles(id,display_name,role) values('<AUTH UUID>','Demo Staff','staff');
-
