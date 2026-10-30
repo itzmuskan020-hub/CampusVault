@@ -62,4 +62,3 @@ export function normalizeDemoState(value, fallback) {
   }
   return result;
 }
-
