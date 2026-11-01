@@ -1,5 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
+import { Analytics } from '@vercel/analytics/react';
 import App from './App.jsx';
 import './style.css';
 
@@ -17,4 +18,4 @@ class AppErrorBoundary extends React.Component {
   }
 }
 
-createRoot(document.getElementById('root')).render(<React.StrictMode><AppErrorBoundary><App /></AppErrorBoundary></React.StrictMode>);
+createRoot(document.getElementById('root')).render(<React.StrictMode><AppErrorBoundary><App /><Analytics /></AppErrorBoundary></React.StrictMode>);
